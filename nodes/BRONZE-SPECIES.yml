@@ -1,0 +1,400 @@
+fileVersion: 1
+id: 94101a49-24ad-4494-9617-7485d7a4aaac
+name: SPECIES
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: BRONZE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7d18671a-6cdd-4ed2-b3c3-1d910e6cd8a7
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SPECIES_ID
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 89bd61db-90a6-41ea-8362-f188ffc8f1b2
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SPECIES_USER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2ffc61f6-6403-43a0-a36a-f6bc5d430823
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SPECIES_TIME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bc3d6a48-5f8c-4e28-90d3-d4c9ec6a8c5e
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_USER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a5fdfdc5-1d11-4db5-9319-b9210a7f7462
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_ACTIVE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8d716733-2c70-4356-a4e3-6f61fb01b398
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_ACCESSPERMISSIONS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cba643d4-2921-4c80-926e-8e64dc08090f
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_TIME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 983cf221-a1ac-4d52-8967-db05ed203a58
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: VARCHAR(40)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a39f760a-2e7b-4999-b370-0171e0981aa9
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_INACTIVE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d95ac0f0-ce90-40a4-877c-743b7d7f5bcd
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_DENTALMAP_OLD2
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a0423d7a-e58d-4c45-9bac-e25ab1a6a31a
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_ICON
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6389b4e8-d0bb-4882-bb54-dcce3a5c52be
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_EXTERNALREFERENCE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 338f6542-87ce-422e-a833-6f87789674ae
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_SECEXTERNALREFERENCE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6ee9a124-ae0f-440b-afbb-6e9e675cfe6b
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_DENTALMAP_OLD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0b33c2a5-f790-488c-a229-c71f2506ab58
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: VARCHAR(65535)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_CONFIG
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5ee6972a-fb4b-44f6-83c6-c2d15af5938b
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_LANGUAGE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ac2c7401-20d0-4171-9e02-5337b8605ad5
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_SURFACEAREACONSTANT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 76e8e5c3-e82e-4532-bad9-2c0ccf4fc177
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: SPECIESDATA_MAXPAINSCORE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f9533666-013a-49e1-b964-dd7943df80e8
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: _FIVETRAN_DELETED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 49e70700-a78f-4aa5-8c64-ed273a72d505
+          stepCounter: 94101a49-24ad-4494-9617-7485d7a4aaac
+        config: {}
+        dataType: TIMESTAMP_TZ(9)
+        defaultValue: ""
+        description: ""
+        name: _FIVETRAN_SYNCED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('BRONZE', 'SPECIES') }}
+  name: SPECIES
+  schema: ""
+  sqlType: Source
+  table: SPECIES
+  type: sourceInput
+  version: 1
+type: Node
