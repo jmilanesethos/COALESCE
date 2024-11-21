@@ -1,0 +1,886 @@
+fileVersion: 1
+id: c518a0a6-d019-48f5-bc47-17dcd164faef
+name: PSTG_ANIMAL
+operation:
+  config:
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f6657a5d-051b-44a8-84fd-b3dbbe97ca5f
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER
+        defaultValue: ""
+        description: ""
+        isSurrogateKey: true
+        name: PSTG_ANIMAL_KEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 34a5181c-cffd-4d3c-9706-0a90a0889ceb
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        isBusinessKey: true
+        name: ANIMAL_ID
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 83003309-7c5b-400d-ab77-14760922afea
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0a83cc11-105a-40af-a1a1-7ee32343cc3b
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMAL_USER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7b14915f-2f1b-4931-a37c-f13525d3627d
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 105cb1b2-35fd-4584-bbbb-d3832cd7f48e
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(13)
+        description: ""
+        name: ANIMAL_NUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d68da8df-8633-4362-a8af-a5c17989fc47
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6702fad1-93c1-4eb1-9827-a32c9a58a825
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMAL_TIME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1f8c075f-076b-4ba6-bec6-59b45cd1501f
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e63318bc-5dd2-4f7e-87a5-527d44716ba6
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_USER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 941c9a3b-9866-4412-8ff8-7ba2d2d5f116
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6c05dec3-9569-4520-a6f5-4ae359d68e63
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(25)
+        description: ""
+        name: ANIMALDATA_CODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fb9650a1-be92-4def-b07a-0428f8017a51
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b30a652a-318c-4dbc-98d3-68e01b3817ae
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_TIME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c96088c7-a611-4a3b-bb51-d016591491f1
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8cbc2ecc-1ce2-44f4-8d8f-982ab1530b56
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(50)
+        description: ""
+        name: ANIMALDATA_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fe521437-66ee-4510-bd71-7c7647659fb6
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f40ce2a6-939e-4785-9e9d-6e09f434217a
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(16,4)
+        description: ""
+        name: ANIMALDATA_WEIGHT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ed3334d7-1597-4587-9cea-46890047c485
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 739d537e-319b-4c7b-8b52-d32d44409e74
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_WEIGHTUNITS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c38dab1f-1844-4c87-a379-580983f6e607
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c1194d19-6732-49fe-b0d1-67f3d34106da
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_DATEOFBIRTH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e13d241a-9df8-4b77-92e9-b4aa6ba792e8
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5585a164-a28f-4032-8274-18cfb50847dd
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: BOOLEAN
+        description: ""
+        name: ANIMALDATA_ESTIMATED
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9ab94ec1-916d-4fd4-9870-d3f8b6fd1532
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e598f148-2142-43c6-af74-b3e979707e03
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_SEX
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4322c841-a3fe-4a62-b144-8edc7bebc411
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 596d1a31-45a5-4f9c-b95f-f44c6af9a86f
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: BOOLEAN
+        description: ""
+        name: ANIMALDATA_DEAD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6d90c9ff-2ba6-496f-a71b-fffd218af576
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 544c1f34-a3cf-444b-83cc-2b6d69b89c42
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_RESUSCITATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a6f67d46-38c3-48a5-b30f-466cae10af48
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: acf590be-aaa0-49df-ad17-aaa7b5f06e22
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_DATEOFDEATH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 24d3b480-b41a-4ac7-891f-db1da304f8e3
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 463b6d0f-f17f-441c-aab6-77691abe4cba
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(16777215)
+        description: ""
+        name: ANIMALDATA_DEATHREASON
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 49b10c49-c50e-4c7e-8c6e-8dc417d9aba8
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 16f84727-9297-49e4-8235-fcda46e07701
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(10)
+        description: ""
+        name: ANIMALDATA_CAUTIONSTATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: aa29bc04-b5b8-4c7e-a7af-86c5c9875941
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 768d635b-aaa0-4541-9250-7dbbc699fba2
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_SPECIES
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 97622afa-e94b-459f-bd6f-9c03b2c83a72
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 81da2bf6-b3cc-4179-a8c0-be3f5886a035
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_BREED
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0420bf64-d72a-4edf-9893-f89469e284ae
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4c2c6b59-4499-4bbc-9935-9afc0a1d7bc6
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_COLOUR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a150b51c-dcd1-4a6e-b56a-3ee67364c709
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 669a1187-37db-4cbb-9b8e-1af24466e6d0
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(16777215)
+        description: ""
+        name: ANIMALDATA_NOTES
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 46cf5c30-d85c-434c-bbd5-35858cb9699f
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6b09ccd5-5135-4f61-b746-476a7fe1d2bf
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: BOOLEAN
+        description: ""
+        name: ANIMALDATA_NOTESIMPORTANT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b8238152-7cf8-4895-ba1f-91efed306e9c
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2613e766-1d26-4607-b330-80592585e152
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(150)
+        description: ""
+        name: ANIMALDATA_MICROCHIP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d7cf8b20-ca14-45e2-a78e-a9a47ec015a7
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8f8ba6db-404c-43da-9d54-708d6f2f7313
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(16777215)
+        description: ""
+        name: ANIMALDATA_DENTALNOTES
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cac135da-7d12-445b-9a89-19362914fa3c
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4497545b-0ac2-42a7-b084-3d118ff44e4e
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_CLIENTCONTACT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ec82e803-7414-4d64-8506-f211966215f6
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 450ed17a-615b-409d-b36b-31a55d380581
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_BILLINGCONTACT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1d9dd426-b31d-4920-a911-3922a3661e76
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3c5e89c1-5426-4e88-8d9a-1d9798841d19
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_ACTIVE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 81b3c6d9-74c1-4978-a531-0408ee2e403c
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a48ef456-fa25-4deb-a87f-0c309e715cdd
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_ACCESSPERMISSIONS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 34eedac1-a45d-4db7-bd75-11064993d7e3
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e36889b1-8815-4352-9551-3f2ad8abfebe
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(100)
+        description: ""
+        name: ANIMALDATA_EXTERNALREFERENCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9a705069-4248-4518-915b-887c45819873
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 54254762-e23a-48c2-bd22-d8ab296ed6b7
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(100)
+        description: ""
+        name: ANIMALDATA_SECEXTERNALREFERENCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 797cae04-5410-41be-a988-61f2063788f3
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2f6f43ab-da75-4af3-8f07-a5b357924fd5
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(50)
+        description: ""
+        name: ANIMALDATA_OLDWEIGHT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 63e2010e-6a1c-437c-9bc7-f87a78d1797d
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 84da2094-a872-413b-964e-e360a5109a06
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_DATEDESEXED
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 80804de2-1536-4f55-8299-bd7c08d16387
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8103c2f5-42d6-4b02-872d-22198a529730
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_DESEXED
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 490be12d-9e8e-4b24-bee8-0fd6fbdd39ea
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4b81a8d2-d4a2-4cb1-90b1-cf3abf3f0c3c
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(60)
+        description: ""
+        name: ANIMALDATA_RABIESNUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 64fbaaec-b1fe-4c60-9a4a-35b95cf5e862
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4ef8964d-f0c0-4d99-9e50-185610f8ccc6
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_RESIDENCECONTACT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6c77bb08-2423-439f-8054-8969598e2563
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7dafd7d7-efd1-41f6-952d-274c2a5bde9e
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: BOOLEAN
+        description: ""
+        name: ANIMALDATA_ISGROUP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: caa7ad43-7489-4f8e-8b99-bac202fd22c3
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 18072d62-2ad6-4937-aca6-4d6bcb1834cd
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_RABIESDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 85019c01-27ac-4600-97e1-79b19d9ebb66
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 030efc2b-10cf-4870-bafc-de669e769f21
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_VET
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a64eaed6-c33c-4b85-9b8d-e1e6a74ee5fd
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 58d03050-ad5a-4f04-a69e-7f3f37c8e402
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_VETCONTACT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9ec60236-4952-4b1e-a2db-2795641a7a5d
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9fab567b-7025-4ffa-92b9-1727e0a543a6
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_PREFERREDDOCTOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1a9010af-3e79-4685-9775-be81fe1dfc51
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3bc8bd3a-133c-424e-941f-98abaf91e2e2
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_SECONDPREFERREDDOCTOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8248583e-f6fe-4679-a006-1c2ad64e8de7
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3dfc3098-2b99-4ab2-8a09-537ced510781
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_INSURANCESUPPLIER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 620e9346-6363-47fb-8d85-87c706ddf124
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b7318619-7376-4151-ac9f-866a0a3770ed
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(60)
+        description: ""
+        name: ANIMALDATA_INSURANCENUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2f7e5d1c-2823-4d2c-b01e-eda0ed74b7df
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ef932fa0-26d3-4c41-a806-dfc86d00c5ce
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_LANGUAGE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c783492e-98e3-4c17-81d0-be66eecf135a
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 947da09c-b60b-4be6-adf8-cda6e1647815
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ANIMALDATA_MICROCHIPSUPPLIER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: df6b1332-8134-4ca6-9691-84af1ff9e8fe
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 49434463-84d1-4fe0-974e-592314936326
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(50)
+        description: ""
+        name: ANIMAL_UID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6d7bc80e-f93f-4ac2-a4e4-0ac8a52e3ee5
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b5c0e1e7-e061-498d-a9a2-0321d5a04b7f
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: BOOLEAN
+        description: ""
+        name: _FIVETRAN_DELETED
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 67c8cec9-3e2b-43b3-bff3-df26b5b45b4b
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e95bb7d5-6a42-4d71-a41a-f675f95f6f21
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: TIMESTAMP_TZ(9)
+        description: ""
+        name: _FIVETRAN_SYNCED
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a1336598-a864-48c4-8576-f0ba65868669
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9fc2d610-8587-4818-8091-b4b61af61c6f
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: STRING
+        description: ""
+        name: SOURCESYSTEM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: eda8b06c-17f6-4658-b98f-ef6e5dacc18d
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fe819b47-78db-4d74-a1fb-997a27907bf0
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        isBusinessKey: true
+        name: SITE_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0effa167-9b97-4dff-862b-f021cd378271
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ef965bcb-e1da-4d1e-8647-4c6d69327316
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR(150)
+        description: ""
+        name: SITE_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ae4f9015-5035-4327-a4e8-d2e22f995a85
+                stepCounter: e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b6e712df-0883-422c-9baa-938451f582e6
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: NUMBER
+        defaultValue: ""
+        description: ""
+        isSystemVersion: true
+        name: SYSTEM_VERSION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8781327c-7ae5-46f1-9d3d-50714f2b5d99
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: VARCHAR
+        defaultValue: ""
+        description: ""
+        isSystemCurrentFlag: true
+        name: SYSTEM_CURRENT_FLAG
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 672d3a4e-fd55-487a-95c4-a9dc99783e59
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemStartDate: true
+        name: SYSTEM_START_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d3c989fc-cfba-48be-8675-38843d3990c9
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemEndDate: true
+        name: SYSTEM_END_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 01dafe31-8cd5-48ac-aa6c-d9e3193a6e1f
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemCreateDate: true
+        name: SYSTEM_CREATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3511cfc5-6db0-4260-84a0-c67d854829af
+          stepCounter: c518a0a6-d019-48f5-bc47-17dcd164faef
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemUpdateDate: true
+        name: SYSTEM_UPDATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: STG_ANIMAL
+        join:
+          joinCondition: FROM {{ ref('WORK', 'STG_ANIMAL') }} "STG_ANIMAL"
+        name: PSTG_ANIMAL
+        noLinkRefs: []
+  name: PSTG_ANIMAL
+  overrideSQL: false
+  schema: ""
+  sqlType: persistentStage
+  type: sql
+  version: 1
+type: Node

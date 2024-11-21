@@ -2,4 +2,6 @@ defaultStorageMapping: WORK
 fileVersion: 1
 locations:
   - BRONZE
+  - ETHOS_VET_EZYMERGED_ETHOSNOCA
+  - ETHOS_VET_EZYMERGED_ETHOSVSH
   - WORK

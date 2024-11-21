@@ -1,0 +1,58 @@
+fileVersion: 1
+id: d3644cb4-e1c1-4a61-9fd7-6b1a4a3f6fd9
+name: EZYVET_SITE
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: WORK
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bfd0019a-b3ec-4fb5-9ea9-874f8d5018d3
+          stepCounter: d3644cb4-e1c1-4a61-9fd7-6b1a4a3f6fd9
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SITE_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d0135b61-dac8-4331-ad57-d440494d7d21
+          stepCounter: d3644cb4-e1c1-4a61-9fd7-6b1a4a3f6fd9
+        config: {}
+        dataType: VARCHAR(150)
+        defaultValue: ""
+        description: ""
+        name: SITE_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('WORK', 'EZYVET_SITE') }}
+  name: EZYVET_SITE
+  schema: ""
+  sqlType: Source
+  table: EZYVET_SITE
+  type: sourceInput
+  version: 1
+type: Node
