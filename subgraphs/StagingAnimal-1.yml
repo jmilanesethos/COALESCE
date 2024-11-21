@@ -1,0 +1,10 @@
+fileVersion: 1
+id: "1"
+name: Staging Animal
+steps:
+  - 1883612a-52ad-431e-b87d-066fec332369
+  - 9837b63c-96f5-48f4-9d13-ffc71ef18220
+  - c518a0a6-d019-48f5-bc47-17dcd164faef
+  - d3644cb4-e1c1-4a61-9fd7-6b1a4a3f6fd9
+  - e4e54de3-7203-4b7f-9d20-fe4eebd13e19
+type: Subgraph

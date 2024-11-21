@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "1"
+includeSelector: "{ subgraph: \"Staging Animal\" }"
+name: Animal Stage Job
+type: Job
