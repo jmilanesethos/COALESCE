@@ -1,0 +1,17 @@
+fileVersion: 1
+id: "2"
+mappingDefinitions:
+  BRONZE:
+    database: PC_FIVETRAN_DB
+    schema: ETHOS_VET_EZYMERGED_ETHOSMA
+  ETHOS_VET_EZYMERGED_ETHOSNOCA:
+    database: PC_FIVETRAN_DB
+    schema: ETHOS_VET_EZYMERGED_ETHOSNOCA
+  ETHOS_VET_EZYMERGED_ETHOSVSH:
+    database: PC_FIVETRAN_DB
+    schema: ETHOS_VET_EZYMERGED_ETHOSVSH
+  WORK:
+    database: FT_ETHOS_DW
+    schema: FT_TEST_WORK
+name: Test
+type: Environment
